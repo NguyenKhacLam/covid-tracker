@@ -1,0 +1,19 @@
+.InforBox {
+  flex: 1;
+  cursor: pointer;
+}
+
+.InforBox:not(:last-child) {
+  margin-right: 15px;
+}
+
+.inforBox__total {
+  margin-top: 15px !important;
+}
+.inforBox__cases {
+  color: red;
+  font-size: 1.75rem;
+}
+.inforBox--selected {
+  border-top: 10px solid greenyellow;
+}
